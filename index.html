@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TA到底喜欢你吗｜星座 × 关系信号分析</title>
+  <meta name="description" content="选择双方星座，结合24个真实相处信号，分析喜欢的可能性、关系投入度与下一步建议。" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%239d2449'/%3E%3Cpath d='M32 50S12 38 12 23a11 11 0 0 1 20-6 11 11 0 0 1 20 6c0 15-20 27-20 27Z' fill='%23fff8ef'/%3E%3C/svg%3E" />
+  <style>
+    :root{--ink:#f8f5ff;--berry:#8f6cff;--berry2:#e6bb73;--cream:#0e1027;--paper:#171936;--line:rgba(231,225,255,.16);--soft:rgba(143,108,255,.14);--muted:#b9b5ce;--shadow:0 28px 90px rgba(3,4,18,.48)}
+    *{box-sizing:border-box}html{font-size:16px;scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 18% 8%,rgba(108,79,201,.26),transparent 28%),radial-gradient(circle at 88% 35%,rgba(40,111,160,.19),transparent 30%),linear-gradient(155deg,#080918 0,#10132d 52%,#090b1d 100%);color:var(--ink);font-family:ui-rounded,"SF Pro Rounded","PingFang SC","Microsoft YaHei",system-ui,sans-serif;min-height:100vh;position:relative}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.65;background-image:radial-gradient(circle,#fff 0 1px,transparent 1.4px),radial-gradient(circle,#d8c4ff 0 1px,transparent 1.3px);background-size:92px 92px,137px 137px;background-position:16px 24px,58px 71px;mask-image:linear-gradient(to bottom,black,transparent 78%)}
+    button{font:inherit}.shell{width:min(780px,calc(100% - 28px));margin:0 auto;padding:30px 0 64px;position:relative;z-index:1}.card{background:linear-gradient(145deg,rgba(27,29,61,.97),rgba(16,18,43,.97));border:1px solid rgba(218,205,255,.18);border-radius:30px;box-shadow:var(--shadow);overflow:hidden;backdrop-filter:blur(18px)}
+    .gate{width:min(520px,calc(100% - 28px));margin:0 auto;padding:42px 0 64px;position:relative;z-index:2}.gate-card{padding:34px;background:radial-gradient(circle at 85% 8%,rgba(230,187,115,.16),transparent 27%),linear-gradient(145deg,rgba(27,29,61,.98),rgba(16,18,43,.98));border:1px solid rgba(218,205,255,.2);border-radius:28px;box-shadow:var(--shadow)}.gate-mark{font-size:2rem;color:#efcb87;text-shadow:0 0 24px rgba(230,187,115,.55)}.gate h1{font-size:clamp(2rem,8vw,3.2rem);margin:14px 0 10px}.gate p{color:#c9c4d7;line-height:1.75}.code-input{width:100%;margin:16px 0 10px;padding:16px 17px;border-radius:15px;border:1px solid rgba(218,205,255,.2);background:rgba(255,255,255,.055);color:#fff;font:700 1rem ui-monospace,SFMono-Regular,Menlo,monospace;text-transform:uppercase;letter-spacing:.06em;outline:none}.code-input:focus{border-color:#bda6ff;box-shadow:0 0 0 4px rgba(143,108,255,.13)}.gate-error{min-height:1.5em;margin:9px 0 0!important;color:#f4adba!important;font-size:.88rem}.gate-note{font-size:.78rem;color:#9f99af!important;margin:16px 0 0!important}.gate-loading{text-align:center;color:#cfc8dd;padding:12px 0}.gate .primary{margin-top:4px}
+    .top{padding:40px 38px 28px;position:relative;background:radial-gradient(circle at 88% 8%,rgba(230,187,115,.16),transparent 27%),radial-gradient(circle at 8% 100%,rgba(143,108,255,.18),transparent 34%)}.top:after{content:"✦";position:absolute;right:38px;top:34px;color:var(--berry2);font-size:2rem;text-shadow:0 0 22px rgba(230,187,115,.75)}
+    .eyebrow{display:inline-flex;gap:8px;align-items:center;color:#d6c4ff;font-weight:750;letter-spacing:.1em;font-size:.82rem}.dot{width:8px;height:8px;border-radius:50%;background:var(--berry2);box-shadow:0 0 0 5px rgba(230,187,115,.12),0 0 18px rgba(230,187,115,.7)}
+    h1{font-family:Georgia,"Songti SC",serif;font-size:clamp(2.35rem,8vw,4.6rem);line-height:1.05;margin:18px 0 14px;letter-spacing:-.04em;max-width:620px;background:linear-gradient(100deg,#fff 15%,#e8d8ff 56%,#f0c985);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:1.06rem;line-height:1.8;color:#d0ccdd;max-width:630px;margin:0}.pills{display:flex;flex-wrap:wrap;gap:9px;margin:23px 0 0}.pill{background:rgba(143,108,255,.13);border:1px solid rgba(170,145,255,.2);color:#ddd3ff;padding:8px 12px;border-radius:999px;font-size:.88rem;font-weight:650}
+    .privacy{margin-top:21px;border-left:2px solid var(--berry2);padding:4px 0 4px 14px;color:var(--muted);font-size:.86rem;line-height:1.65}.actions{padding:0 38px 38px}.primary,.secondary{border:0;border-radius:16px;padding:16px 20px;font-weight:780;cursor:pointer;transition:.2s ease}.primary{width:100%;background:linear-gradient(110deg,#7556e8,#9c75ff 58%,#c394da);color:white;box-shadow:0 12px 30px rgba(118,82,226,.34)}.primary:hover{filter:brightness(1.1);transform:translateY(-2px)}.secondary{background:rgba(255,255,255,.08);border:1px solid var(--line);color:#e3ddf7}.hidden{display:none!important}
+    .zodiac-wrap{padding:0 38px 26px}.zodiac-title{font-weight:800;margin:0 0 13px;color:#f0ebff}.zodiac-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.zodiac{border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:15px;padding:11px 7px;color:var(--ink);cursor:pointer;display:grid;gap:3px;text-align:center;transition:.18s}.zodiac:hover,.zodiac:focus-visible{border-color:#bda6ff;background:rgba(143,108,255,.11);outline:none;transform:translateY(-2px)}.zodiac.selected{color:#17142c;background:linear-gradient(145deg,#f5d596,#c8a8ff);border-color:transparent;box-shadow:0 10px 26px rgba(189,166,255,.24)}.zodiac-symbol{font-size:1.45rem}.zodiac small{font-size:.75rem;opacity:.75}.star-note{font-size:.78rem;color:var(--muted);line-height:1.55;margin:13px 0 0}.primary:disabled{opacity:.42;cursor:not-allowed;box-shadow:none;transform:none}
+    .context-block{margin-top:24px}.stage-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.stage{border:1px solid var(--line);background:rgba(255,255,255,.035);color:var(--ink);border-radius:14px;padding:13px 10px;cursor:pointer;transition:.18s}.stage:hover,.stage:focus-visible{border-color:#bda6ff;background:rgba(143,108,255,.11);outline:none}.stage.selected{color:#17142c;background:linear-gradient(145deg,#f5d596,#c8a8ff);border-color:transparent;font-weight:750}.story-visual{margin:0 38px 28px;border-radius:20px;overflow:hidden;border:1px solid rgba(230,225,255,.14);position:relative}.story-visual img{display:block;width:100%;aspect-ratio:16/8.5;object-fit:cover}.story-visual:after{content:"";position:absolute;inset:0;box-shadow:inset 0 -70px 70px rgba(10,11,30,.42);pointer-events:none}
+    .quiz-head{padding:24px 30px 10px;position:sticky;top:0;background:rgba(20,22,51,.93);backdrop-filter:blur(16px);z-index:5}.progress-row{display:flex;justify-content:space-between;gap:18px;align-items:center;color:var(--muted);font-size:.88rem}.track{height:7px;background:rgba(255,255,255,.08);border-radius:99px;overflow:hidden;margin-top:12px}.fill{height:100%;width:5%;background:linear-gradient(90deg,#8f6cff,#e6bb73);border-radius:inherit;transition:width .35s ease}
+    .question{padding:36px 32px 30px;min-height:440px;display:flex;flex-direction:column}.qnum{color:#d6c4ff;font-size:.82rem;font-weight:800;letter-spacing:.14em}.qtext{font-family:Georgia,"Songti SC",serif;font-size:clamp(1.55rem,5vw,2.1rem);line-height:1.5;margin:18px 0 30px}.scale{display:grid;gap:11px;margin-top:auto}.option{appearance:none;border:1px solid var(--line);background:rgba(255,255,255,.04);border-radius:15px;padding:15px 16px;text-align:left;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:space-between;transition:.18s}.option:hover,.option:focus-visible{border-color:#bca6ff;background:rgba(143,108,255,.13);outline:none;transform:translateX(4px)}.option span:last-child{color:#9993ac;font-size:.82rem}.back{margin-top:18px;border:0;background:transparent;color:var(--muted);cursor:pointer;padding:6px 0;text-align:left}
+    .result{padding:34px}.result-kicker{font-weight:800;color:#d7c4ff;letter-spacing:.1em;font-size:.78rem}.result h2{font-family:Georgia,"Songti SC",serif;font-size:clamp(2.2rem,8vw,4.2rem);line-height:1.08;margin:12px 0 9px;background:linear-gradient(100deg,#fff,#e3d4ff 60%,#ebc77f);-webkit-background-clip:text;background-clip:text;color:transparent}.tagline{color:#d0ccdd;font-size:1.08rem;line-height:1.75;margin-bottom:24px}.radar-card{position:relative;margin:22px 0 18px;padding:18px;border:1px solid rgba(207,190,255,.19);border-radius:22px;background:radial-gradient(circle at 50% 45%,rgba(143,108,255,.14),transparent 56%),rgba(255,255,255,.025)}.radar-title{text-align:center;font-size:.83rem;color:#d9cef3;font-weight:750;letter-spacing:.1em;margin-bottom:4px}.radar-card canvas{display:block;width:100%;height:320px}.score-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:18px 0 27px}.score{padding:15px;border-radius:17px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.06)}.score b{font-size:.92rem}.score .bar{height:7px;background:rgba(255,255,255,.08);margin-top:11px;border-radius:20px;overflow:hidden}.score .bar i{display:block;height:100%;background:linear-gradient(90deg,#8f6cff,#e6bb73);border-radius:inherit}.analysis{border-top:1px solid var(--line);padding-top:20px}.analysis h3{font-size:1rem;color:#d9c6ff;margin:22px 0 8px}.analysis p,.analysis li{line-height:1.8;color:#d2cedd}.analysis ul{padding-left:1.2rem}.result-actions{display:flex;gap:10px;margin-top:28px}.result-actions .primary{width:auto;flex:1}.disclaimer{margin-top:24px;font-size:.8rem;line-height:1.65;color:var(--muted);padding:15px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.06);border-radius:14px}
+    .result-visual{margin:4px 0 22px;border-radius:20px;overflow:hidden;border:1px solid rgba(230,225,255,.14)}.result-visual img{display:block;width:100%;aspect-ratio:16/8.5;object-fit:cover}
+    .clarity{display:grid;grid-template-columns:auto auto 1fr;gap:10px;align-items:center;margin:0 0 22px;padding:13px 15px;border-radius:16px;background:rgba(230,187,115,.08);border:1px solid rgba(230,187,115,.18)}.clarity span{font-size:.8rem;color:#cfc7df}.clarity b{font-size:.86rem;color:#f1cf8e}.clarity p{margin:0;font-size:.82rem;color:#bdb7cb;line-height:1.55}.evidence-list{display:grid;gap:9px;padding:0;margin:10px 0 0;list-style:none}.evidence-list li{padding:11px 13px;border-radius:13px;background:rgba(255,255,255,.035);border-left:2px solid #a98bff}.evidence-list li.caution{border-left-color:#e6bb73}
+    .decision-card{position:relative;overflow:hidden;margin:28px 0 14px;padding:24px;border-radius:22px;background:linear-gradient(135deg,rgba(107,67,223,.94),rgba(147,68,178,.9) 52%,rgba(190,116,95,.9));box-shadow:0 18px 42px rgba(111,64,208,.25)}.decision-card:before{content:"✦";position:absolute;right:20px;top:10px;color:rgba(255,239,191,.65);font-size:3rem}.decision-card h3,.message-card h3{margin:0 0 9px;font-size:1.08rem;color:white}.decision-lead{position:relative;margin:0 0 17px;color:#fff;line-height:1.75;font-weight:650;max-width:92%}.action-list{position:relative;list-style:none;padding:0;margin:0;display:grid;gap:10px;counter-reset:action}.action-list li{counter-increment:action;display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start;padding:12px 13px;border-radius:14px;background:rgba(18,12,43,.28);color:#fff;line-height:1.65}.action-list li:before{content:counter(action);display:grid;place-items:center;width:25px;height:25px;border-radius:50%;background:#f4d18f;color:#321c4d;font-weight:850;font-size:.78rem}.message-card{margin:14px 0 8px;padding:23px;border-radius:22px;background:radial-gradient(circle at 90% 10%,rgba(246,205,132,.21),transparent 28%),linear-gradient(145deg,#221a53,#40215f 58%,#54274f);border:1px solid rgba(235,207,255,.22)}.message-text{font-family:Georgia,"Songti SC",serif;font-size:1.08rem;line-height:1.85;color:#fff9ed;margin:12px 0 17px}.copy-message{border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.1);color:white;border-radius:12px;padding:10px 14px;font-weight:750;cursor:pointer}.copy-message:hover{background:rgba(255,255,255,.17)}
+    .compat-card{margin:24px 0;padding:22px;border-radius:22px;background:radial-gradient(circle at 90% 0,rgba(230,187,115,.16),transparent 33%),linear-gradient(145deg,rgba(76,55,142,.42),rgba(26,29,66,.82));border:1px solid rgba(205,185,255,.22)}.compat-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:10px;color:#cfc6ea;font-size:.82rem}.compat-head b{padding:6px 10px;border-radius:999px;background:rgba(237,205,143,.13);color:#f1cf8e}.compat-card h3{font-family:Georgia,"Songti SC",serif;font-size:1.55rem;line-height:1.35;color:#fff;margin:7px 0 10px}.compat-card>p{color:#d7d1e4;line-height:1.8;margin:0 0 18px}.compat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.compat-item{padding:13px;border-radius:14px;background:rgba(255,255,255,.045)}.compat-item span{display:block;color:#e8cc95;font-size:.78rem;font-weight:800;margin-bottom:7px}.compat-item p{margin:0;color:#d8d3e1;font-size:.88rem;line-height:1.65}
+    footer{text-align:center;color:#8b7e83;font-size:.78rem;margin:18px 0}.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:#211923;color:white;padding:11px 16px;border-radius:999px;opacity:0;pointer-events:none;transition:.25s}.toast.show{opacity:1;transform:translate(-50%,0)}
+    @media(max-width:560px){.shell{width:min(100% - 16px,760px);padding-top:8px}.card{border-radius:22px}.top{padding:26px 22px 22px}.actions{padding:0 22px 25px}.zodiac-wrap{padding:0 22px 20px}.zodiac-grid{grid-template-columns:repeat(3,1fr);gap:8px}.story-visual{margin:0 22px 24px}.story-visual img{aspect-ratio:4/3}.quiz-head{padding:20px 20px 8px}.question{padding:26px 20px 23px;min-height:500px}.result{padding:24px 20px}.clarity{grid-template-columns:auto auto}.clarity p{grid-column:1/-1}.decision-card,.message-card,.compat-card{padding:20px}.decision-lead{max-width:100%}.compat-grid{grid-template-columns:1fr}.score-grid{grid-template-columns:1fr}.result-actions{flex-direction:column}.result-actions .primary{width:100%}}
+    @media print{body{background:white}.shell{width:100%;padding:0}.card{box-shadow:none;border:0}.result-actions,.copy-message,.quiz-head,footer{display:none!important}.result{padding:0}.disclaimer{border:1px solid #ddd}.score-grid{grid-template-columns:repeat(2,1fr)}}
+  </style>
+</head>
+<body>
+  <main class="shell" id="experience">
+    <section class="card" id="intro">
+      <div class="top">
+        <div class="eyebrow"><span class="dot"></span>星座 × 真实关系信号</div>
+        <h1>TA到底喜欢你吗？</h1>
+        <p class="lead">别只看回复快不快。结合你们的星座、相处阶段和真实行为，判断这段关系是在升温、观望，还是只有你在投入。</p>
+        <div class="pills"><span class="pill">双方星座</span><span class="pill">24 个关系问题</span><span class="pill">发展建议</span></div>
+        <div class="privacy">星座只解释表达差异，主动、稳定、投入和尊重才是判断核心。无需上传聊天记录，答案只在本机计算。</div>
+      </div>
+      <div class="story-visual"><img src="assets/waiting-for-reply.jpg" alt="夜晚等待喜欢的人回复消息的关系场景插画"></div>
+      <div class="zodiac-wrap">
+        <p class="zodiac-title">你的太阳星座</p><div class="zodiac-grid" id="zodiacGrid"></div>
+        <div class="context-block"><p class="zodiac-title">TA的太阳星座</p><div class="zodiac-grid" id="partnerZodiacGrid"></div></div>
+        <div class="context-block"><p class="zodiac-title">你们现在的关系</p><div class="stage-grid" id="stageGrid"></div></div>
+        <p class="star-note">不知道太阳星座可按常见阳历生日选择。本测试不预测命运，也不能替对方表达真实意愿。</p>
+      </div>
+      <div class="actions"><button class="primary" id="start" disabled>完成上面选择后开始</button></div>
+    </section>
+
+    <section class="card hidden" id="quiz">
+      <div class="quiz-head">
+        <div class="progress-row"><span id="progressText">第 1 / 24 题</span><span>按最近一个月的真实情况选择</span></div>
+        <div class="track"><div class="fill" id="fill"></div></div>
+      </div>
+      <div class="question">
+        <div class="qnum" id="qnum">QUESTION 01</div>
+        <div class="qtext" id="qtext"></div>
+        <div class="scale" id="scale"></div>
+        <button class="back" id="back">返回上一题</button>
+      </div>
+    </section>
+
+    <section class="card hidden" id="result">
+      <div class="result">
+        <div class="result-kicker" id="resultKicker">你们的关系信号分析</div>
+        <h2 id="typeName"></h2>
+        <div class="tagline" id="tagline"></div>
+        <div class="clarity"><span>信息清晰度</span><b id="clarity"></b><p id="clarityText"></p></div>
+        <div class="result-visual"><img src="assets/honest-conversation.jpg" alt="两个人坦诚交流关系感受的插画"></div>
+        <div class="radar-card"><div class="radar-title">TA对这段关系的行为信号</div><canvas id="radar" role="img" aria-label="主动、稳定、投入和尊重四项关系信号雷达图"></canvas></div>
+        <div class="score-grid" id="scores"></div>
+        <section class="compat-card"><div class="compat-head"><span>双方星座相处参考</span><b id="compatVerdict"></b></div><h3 id="compatTitle"></h3><p id="compatText"></p><div class="compat-grid"><div class="compat-item"><span>容易来电的地方</span><p id="compatSpark"></p></div><div class="compat-item"><span>最容易卡住</span><p id="compatFriction"></p></div><div class="compat-item"><span>相处关键</span><p id="compatAdvice"></p></div></div></section>
+        <div class="analysis">
+          <h3>哪些行为构成了这个判断</h3><ul class="evidence-list" id="evidenceList"></ul>
+          <h3>TA的星座可能怎样表达喜欢</h3><p id="starLayer"></p>
+          <h3>把这些信号放在一起看</h3><p id="strength"></p>
+          <h3>最容易误判的地方</h3><p id="blindspot"></p>
+        </div>
+        <section class="decision-card"><h3>要不要继续发展？</h3><p class="decision-lead" id="decisionLead"></p><ol class="action-list" id="steps"></ol></section>
+        <section class="message-card"><h3>你现在可以这样说</h3><p class="message-text" id="script"></p><button class="copy-message" id="copyMessage" type="button">复制这段话</button></section>
+        <div class="result-actions"><button class="primary" id="save">保存 / 打印结果</button><button class="secondary" id="restart">重新测试</button></div>
+        <div class="disclaimer">本结果依据你提供的行为信息，只能评估“喜欢的可能性”和关系投入度，不能证明或代替TA的真实想法。星座部分属于文化娱乐表达，不构成心理诊断、治疗建议或关系决策依据。若关系中存在控制、威胁或持续伤害，请优先保护自己并寻求可靠支持。</div>
+      </div>
+    </section>
+    <footer>星座解释表达差异 · 行为决定关系质量</footer>
+  </main>
+  <div class="toast" id="toast">结果已生成，可在打印窗口保存为 PDF</div>
+
+  <script src="app.js?v=9">
+    const questions = [
+      ['对方回复明显变慢时，我会很想尽快确认发生了什么。','s'],
+      ['即使很喜欢一个人，我也需要保留稳定的独处时间。','c',true],
+      ['有不舒服的地方，我通常会直接说出来。','e'],
+      ['发生争执后，我愿意主动寻找双方都能接受的解决办法。','r'],
+      ['关系升温时，我会自然地把更多生活分享给对方。','c'],
+      ['对方语气稍有变化，我很容易察觉并反复琢磨。','s'],
+      ['比起让对方猜，我更愿意明确表达需要。','e'],
+      ['争吵时，我仍能区分“解决问题”和“攻击对方”。','r'],
+      ['见不到对方时，我会频繁想知道对方正在做什么。','c'],
+      ['关系中出现不确定信号，会明显影响我的情绪。','s'],
+      ['我习惯先消化情绪，往往过很久才说出口。','e',true],
+      ['即使当下很生气，我也愿意在冷静后把话说完。','r'],
+      ['我期待伴侣参与我大部分重要决定。','c'],
+      ['对方没有及时回应时，我通常能先做自己的事情。','s',true],
+      ['我能用具体的话描述自己的感受，而不只是说“没事”。','e'],
+      ['我可以为自己的过失道歉，而不觉得这等于认输。','r'],
+      ['对方需要空间时，我不会立刻理解成疏远。','c',true],
+      ['在没有充分证据时，我也可能担心关系变差。','s'],
+      ['表达喜欢、感谢或想念，对我来说比较自然。','e'],
+      ['我更关注如何改善下一次，而不是一直追究谁对谁错。','r']
+    ];
+    const labels=['很不符合','不太符合','说不清','比较符合','非常符合'];
+    const profiles={
+      c:{name:'温度靠近型',tag:'你通过分享、陪伴与参与感确认爱，也愿意让关系成为生活中重要的一部分。',strength:'你有投入关系的能力，愿意建立连接，也容易让对方感受到重视与在场。',blindspot:'当彼此节奏不同，你可能把“需要空间”误读成“感情降温”，于是越想确认，越容易给双方增加压力。',steps:['先把“我需要确认”翻译成一个具体请求，而不是连续追问。','为自己保留一项不依赖伴侣的稳定活动，让安全感不只来自回复速度。','区分事实与推测：先写下发生了什么，再写下自己担心什么。'],script:'“我发现最近我们的联系节奏变了，我有一点不确定。你愿意告诉我你的状态，以及我们什么时候方便聊聊吗？”'},
+      s:{name:'高感雷达型',tag:'你对语气、距离和细节变化很敏锐，常常比别人更早感觉到关系里的波动。',strength:'你善于觉察氛围和他人情绪，能够捕捉被忽略的需求，也很重视关系质量。',blindspot:'敏锐在信息不足时也可能变成过度解读。你感觉到的变化是真实感受，但对变化原因的解释未必就是事实。',steps:['情绪上来时给自己20分钟，不立刻通过消息寻找答案。','用“我观察到……”开头，只描述事实，不替对方下结论。','建立自己的安定清单：运动、朋友、规律睡眠和可完成的小任务。'],script:'“我注意到你今天比平时安静，我有点担心，但不想替你猜。你现在需要陪伴、空间，还是之后再聊？”'},
+      e:{name:'真心表达型',tag:'你倾向于把感受说清楚，希望关系中的重要信息能够被看见、被回应。',strength:'你的坦诚减少了猜测成本，也更容易建立真实、有深度的连接。',blindspot:'当情绪强度很高时，直接表达可能变成信息倾倒；对方若反应较慢，你也可能觉得自己没有被重视。',steps:['表达前先确定目标：想被理解、想解决问题，还是只想获得陪伴。','一次只谈一个主题，避免把过去所有不满同时拿出来。','给对方处理信息的时间，并约定明确的回应节点。'],script:'“我现在更需要你先听我说完，不急着解决。等我说完后，我也想听听你的感受。”'},
+      r:{name:'关系共建型',tag:'你相信关系可以通过沟通和调整变得更好，遇到问题时更关注修复与下一步。',strength:'你具备合作意识，愿意承担自己的部分，也能把冲突转化为更清楚的相处规则。',blindspot:'你可能太快进入解决模式，忽略自己或对方仍需要被理解；长期做“修复的人”也可能让你感到疲惫。',steps:['解决问题前，先确认双方的情绪是否已经被听见。','不要独自承担修复责任，观察对方是否也愿意行动。','把约定写成双方都能执行的小变化，并在一周后回看。'],script:'“我想和你一起把这件事处理好。我们先各自说说最在意的部分，再选一个这周能做到的小改变，好吗？”'},
+      b:{name:'稳态边界型',tag:'你重视稳定、自主和清晰边界，不会轻易让一段关系打乱自己的生活节奏。',strength:'你通常能够保持理性与独立，不会因为短暂波动就失去自己的重心。',blindspot:'当你习惯独自消化一切，对方可能难以判断你是否在意；过度保护空间，也可能错过建立亲密的机会。',steps:['每周主动分享一件近况，不等对方追问。','不需要一次讲很多，先练习说出一个具体感受和一个需要。','需要空间时说明时长和回来的时间，避免用沉默代替边界。'],script:'“我现在需要一点时间整理，不是想离开这段对话。今晚九点我们再继续，我会回来把它说完。”'}
+    };
+    let index=0,answers=[];
+    const $=id=>document.getElementById(id), intro=$('intro'),quiz=$('quiz'),result=$('result');
+    function show(el){[intro,quiz,result].forEach(x=>x.classList.add('hidden'));el.classList.remove('hidden');window.scrollTo({top:0,behavior:'smooth'})}
+    function render(){const q=questions[index];$('qnum').textContent=`QUESTION ${String(index+1).padStart(2,'0')}`;$('qtext').textContent=q[0];$('progressText').textContent=`第 ${index+1} / ${questions.length} 题`;$('fill').style.width=`${(index+1)/questions.length*100}%`;$('back').style.visibility=index?'visible':'hidden';$('scale').innerHTML='';labels.forEach((label,i)=>{const b=document.createElement('button');b.className='option';b.innerHTML=`<span>${label}</span><span>${i+1}</span>`;b.onclick=()=>choose(i+1);$('scale').appendChild(b)})}
+    function choose(value){answers[index]=value;if(index<questions.length-1){index++;render()}else finish()}
+    function finish(){const sums={c:0,s:0,e:0,r:0},counts={c:0,s:0,e:0,r:0};questions.forEach((q,i)=>{const v=q[2]?6-answers[i]:answers[i];sums[q[1]]+=v;counts[q[1]]++});const pct={};Object.keys(sums).forEach(k=>pct[k]=Math.round((sums[k]-counts[k])/(counts[k]*4)*100));const avg=Object.values(pct).reduce((a,b)=>a+b,0)/4;let key=avg<46?'b':Object.keys(pct).sort((a,b)=>pct[b]-pct[a])[0];const p=profiles[key];$('typeName').textContent=p.name;$('tagline').textContent=p.tag;const names={c:'靠近需求',s:'情绪雷达',e:'表达清晰',r:'修复倾向'};$('scores').innerHTML=Object.keys(pct).map(k=>`<div class="score"><b>${names[k]} · ${pct[k]}</b><div class="bar"><i style="width:${pct[k]}%"></i></div></div>`).join('');$('strength').textContent=p.strength;$('blindspot').textContent=p.blindspot;$('steps').innerHTML=p.steps.map(x=>`<li>${x}</li>`).join('');$('script').textContent=p.script;show(result)}
+    $('start').onclick=()=>{index=0;answers=[];render();show(quiz)};$('back').onclick=()=>{if(index){index--;render()}};$('restart').onclick=()=>{index=0;answers=[];render();show(quiz)};$('save').onclick=()=>{$('toast').classList.add('show');setTimeout(()=>{$('toast').classList.remove('show');window.print()},500)};
+  </script>
+</body>
+</html>
